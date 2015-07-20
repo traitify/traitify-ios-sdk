@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		479438391B5C66540065334B /* Traitify.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 479438381B5C66540065334B /* Traitify.h */; };
+		4794383B1B5C66540065334B /* Traitify.m in Sources */ = {isa = PBXBuildFile; fileRef = 4794383A1B5C66540065334B /* Traitify.m */; };
+		479438411B5C66540065334B /* libTraitify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 479438351B5C66540065334B /* libTraitify.a */; };
+		4794385D1B5C68A00065334B /* TraitifyAssessment.m in Sources */ = {isa = PBXBuildFile; fileRef = 479438501B5C68A00065334B /* TraitifyAssessment.m */; };
+		4794385E1B5C68A00065334B /* TraitifyCareerMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 479438521B5C68A00065334B /* TraitifyCareerMatch.m */; };
+		4794385F1B5C68A00065334B /* TraitifyDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 479438541B5C68A00065334B /* TraitifyDeck.m */; };
+		479438601B5C68A00065334B /* TraitifyDeckBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 479438561B5C68A00065334B /* TraitifyDeckBadge.m */; };
+		479438611B5C68A00065334B /* TraitifyResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 479438581B5C68A00065334B /* TraitifyResult.m */; };
+		479438621B5C68A00065334B /* TraitifySlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 4794385A1B5C68A00065334B /* TraitifySlide.m */; };
+		479438681B5C698B0065334B /* TraitifyAssessment.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4794384F1B5C68A00065334B /* TraitifyAssessment.h */; };
+		479438691B5C698B0065334B /* TraitifyCareerMatch.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 479438511B5C68A00065334B /* TraitifyCareerMatch.h */; };
+		4794386A1B5C698B0065334B /* TraitifyDeck.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 479438531B5C68A00065334B /* TraitifyDeck.h */; };
+		4794386B1B5C698B0065334B /* TraitifyDeckBadge.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 479438551B5C68A00065334B /* TraitifyDeckBadge.h */; };
+		4794386C1B5C698B0065334B /* TraitifyResult.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 479438571B5C68A00065334B /* TraitifyResult.h */; };
+		4794386D1B5C698B0065334B /* TraitifySlide.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 479438591B5C68A00065334B /* TraitifySlide.h */; };
+		479438791B5C8DFC0065334B /* TraitifyTrait.m in Sources */ = {isa = PBXBuildFile; fileRef = 479438781B5C8DFC0065334B /* TraitifyTrait.m */; };
+		4794387C1B5C8E150065334B /* TraitifyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4794387B1B5C8E150065334B /* TraitifyType.m */; };
+		4794387F1B5C8E200065334B /* TraitifyBlend.m in Sources */ = {isa = PBXBuildFile; fileRef = 4794387E1B5C8E200065334B /* TraitifyBlend.m */; };
+		479438801B5C9B000065334B /* TraitifyTrait.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 479438771B5C8DFC0065334B /* TraitifyTrait.h */; };
+		479438811B5C9B000065334B /* TraitifyType.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4794387A1B5C8E150065334B /* TraitifyType.h */; };
+		479438821B5C9B000065334B /* TraitifyBlend.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4794387D1B5C8E200065334B /* TraitifyBlend.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		479438421B5C66540065334B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4794382D1B5C66540065334B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 479438341B5C66540065334B;
+			remoteInfo = Traitify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		479438331B5C66540065334B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				479438801B5C9B000065334B /* TraitifyTrait.h in CopyFiles */,
+				479438811B5C9B000065334B /* TraitifyType.h in CopyFiles */,
+				479438821B5C9B000065334B /* TraitifyBlend.h in CopyFiles */,
+				479438681B5C698B0065334B /* TraitifyAssessment.h in CopyFiles */,
+				479438691B5C698B0065334B /* TraitifyCareerMatch.h in CopyFiles */,
+				4794386A1B5C698B0065334B /* TraitifyDeck.h in CopyFiles */,
+				4794386B1B5C698B0065334B /* TraitifyDeckBadge.h in CopyFiles */,
+				4794386C1B5C698B0065334B /* TraitifyResult.h in CopyFiles */,
+				4794386D1B5C698B0065334B /* TraitifySlide.h in CopyFiles */,
+				479438391B5C66540065334B /* Traitify.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		479438351B5C66540065334B /* libTraitify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTraitify.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		479438381B5C66540065334B /* Traitify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Traitify.h; sourceTree = "<group>"; };
+		4794383A1B5C66540065334B /* Traitify.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Traitify.m; sourceTree = "<group>"; };
+		479438401B5C66540065334B /* TraitifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraitifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		479438461B5C66540065334B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4794384F1B5C68A00065334B /* TraitifyAssessment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraitifyAssessment.h; sourceTree = "<group>"; };
+		479438501B5C68A00065334B /* TraitifyAssessment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraitifyAssessment.m; sourceTree = "<group>"; };
+		479438511B5C68A00065334B /* TraitifyCareerMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraitifyCareerMatch.h; sourceTree = "<group>"; };
+		479438521B5C68A00065334B /* TraitifyCareerMatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraitifyCareerMatch.m; sourceTree = "<group>"; };
+		479438531B5C68A00065334B /* TraitifyDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraitifyDeck.h; sourceTree = "<group>"; };
+		479438541B5C68A00065334B /* TraitifyDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraitifyDeck.m; sourceTree = "<group>"; };
+		479438551B5C68A00065334B /* TraitifyDeckBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraitifyDeckBadge.h; sourceTree = "<group>"; };
+		479438561B5C68A00065334B /* TraitifyDeckBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraitifyDeckBadge.m; sourceTree = "<group>"; };
+		479438571B5C68A00065334B /* TraitifyResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraitifyResult.h; sourceTree = "<group>"; };
+		479438581B5C68A00065334B /* TraitifyResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraitifyResult.m; sourceTree = "<group>"; };
+		479438591B5C68A00065334B /* TraitifySlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraitifySlide.h; sourceTree = "<group>"; };
+		4794385A1B5C68A00065334B /* TraitifySlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraitifySlide.m; sourceTree = "<group>"; };
+		479438771B5C8DFC0065334B /* TraitifyTrait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraitifyTrait.h; sourceTree = "<group>"; };
+		479438781B5C8DFC0065334B /* TraitifyTrait.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraitifyTrait.m; sourceTree = "<group>"; };
+		4794387A1B5C8E150065334B /* TraitifyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraitifyType.h; sourceTree = "<group>"; };
+		4794387B1B5C8E150065334B /* TraitifyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraitifyType.m; sourceTree = "<group>"; };
+		4794387D1B5C8E200065334B /* TraitifyBlend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraitifyBlend.h; sourceTree = "<group>"; };
+		4794387E1B5C8E200065334B /* TraitifyBlend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraitifyBlend.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		479438321B5C66540065334B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4794383D1B5C66540065334B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479438411B5C66540065334B /* libTraitify.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4794382C1B5C66540065334B = {
+			isa = PBXGroup;
+			children = (
+				479438371B5C66540065334B /* Traitify */,
+				479438441B5C66540065334B /* TraitifyTests */,
+				479438361B5C66540065334B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		479438361B5C66540065334B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				479438351B5C66540065334B /* libTraitify.a */,
+				479438401B5C66540065334B /* TraitifyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		479438371B5C66540065334B /* Traitify */ = {
+			isa = PBXGroup;
+			children = (
+				479438381B5C66540065334B /* Traitify.h */,
+				4794383A1B5C66540065334B /* Traitify.m */,
+				4794384F1B5C68A00065334B /* TraitifyAssessment.h */,
+				479438501B5C68A00065334B /* TraitifyAssessment.m */,
+				479438511B5C68A00065334B /* TraitifyCareerMatch.h */,
+				479438521B5C68A00065334B /* TraitifyCareerMatch.m */,
+				479438531B5C68A00065334B /* TraitifyDeck.h */,
+				479438541B5C68A00065334B /* TraitifyDeck.m */,
+				479438551B5C68A00065334B /* TraitifyDeckBadge.h */,
+				479438561B5C68A00065334B /* TraitifyDeckBadge.m */,
+				479438571B5C68A00065334B /* TraitifyResult.h */,
+				479438581B5C68A00065334B /* TraitifyResult.m */,
+				479438591B5C68A00065334B /* TraitifySlide.h */,
+				4794385A1B5C68A00065334B /* TraitifySlide.m */,
+				479438771B5C8DFC0065334B /* TraitifyTrait.h */,
+				479438781B5C8DFC0065334B /* TraitifyTrait.m */,
+				4794387A1B5C8E150065334B /* TraitifyType.h */,
+				4794387B1B5C8E150065334B /* TraitifyType.m */,
+				4794387D1B5C8E200065334B /* TraitifyBlend.h */,
+				4794387E1B5C8E200065334B /* TraitifyBlend.m */,
+			);
+			path = Traitify;
+			sourceTree = "<group>";
+		};
+		479438441B5C66540065334B /* TraitifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				479438451B5C66540065334B /* Supporting Files */,
+			);
+			path = TraitifyTests;
+			sourceTree = "<group>";
+		};
+		479438451B5C66540065334B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				479438461B5C66540065334B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		479438341B5C66540065334B /* Traitify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479438491B5C66540065334B /* Build configuration list for PBXNativeTarget "Traitify" */;
+			buildPhases = (
+				479438311B5C66540065334B /* Sources */,
+				479438321B5C66540065334B /* Frameworks */,
+				479438331B5C66540065334B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Traitify;
+			productName = Traitify;
+			productReference = 479438351B5C66540065334B /* libTraitify.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4794383F1B5C66540065334B /* TraitifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4794384C1B5C66540065334B /* Build configuration list for PBXNativeTarget "TraitifyTests" */;
+			buildPhases = (
+				4794383C1B5C66540065334B /* Sources */,
+				4794383D1B5C66540065334B /* Frameworks */,
+				4794383E1B5C66540065334B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				479438431B5C66540065334B /* PBXTargetDependency */,
+			);
+			name = TraitifyTests;
+			productName = TraitifyTests;
+			productReference = 479438401B5C66540065334B /* TraitifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4794382D1B5C66540065334B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Pocket Sevens";
+				TargetAttributes = {
+					479438341B5C66540065334B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4794383F1B5C66540065334B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 479438301B5C66540065334B /* Build configuration list for PBXProject "Traitify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4794382C1B5C66540065334B;
+			productRefGroup = 479438361B5C66540065334B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				479438341B5C66540065334B /* Traitify */,
+				4794383F1B5C66540065334B /* TraitifyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4794383E1B5C66540065334B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		479438311B5C66540065334B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4794385F1B5C68A00065334B /* TraitifyDeck.m in Sources */,
+				4794387F1B5C8E200065334B /* TraitifyBlend.m in Sources */,
+				479438621B5C68A00065334B /* TraitifySlide.m in Sources */,
+				479438601B5C68A00065334B /* TraitifyDeckBadge.m in Sources */,
+				4794383B1B5C66540065334B /* Traitify.m in Sources */,
+				4794387C1B5C8E150065334B /* TraitifyType.m in Sources */,
+				4794385D1B5C68A00065334B /* TraitifyAssessment.m in Sources */,
+				479438791B5C8DFC0065334B /* TraitifyTrait.m in Sources */,
+				479438611B5C68A00065334B /* TraitifyResult.m in Sources */,
+				4794385E1B5C68A00065334B /* TraitifyCareerMatch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4794383C1B5C66540065334B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		479438431B5C66540065334B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 479438341B5C66540065334B /* Traitify */;
+			targetProxy = 479438421B5C66540065334B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		479438471B5C66540065334B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		479438481B5C66540065334B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4794384A1B5C66540065334B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4794384B1B5C66540065334B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4794384D1B5C66540065334B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TraitifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4794384E1B5C66540065334B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TraitifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		479438301B5C66540065334B /* Build configuration list for PBXProject "Traitify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479438471B5C66540065334B /* Debug */,
+				479438481B5C66540065334B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		479438491B5C66540065334B /* Build configuration list for PBXNativeTarget "Traitify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4794384A1B5C66540065334B /* Debug */,
+				4794384B1B5C66540065334B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4794384C1B5C66540065334B /* Build configuration list for PBXNativeTarget "TraitifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4794384D1B5C66540065334B /* Debug */,
+				4794384E1B5C66540065334B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4794382D1B5C66540065334B /* Project object */;
+}
